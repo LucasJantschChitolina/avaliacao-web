@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento Tributário | LJC Serviços Contábeis</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">LJC Serviços Contábeis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="empresa.html">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+
+    <div class="container mt-5" style="padding-bottom: 30px;">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Planejamento Tributário</h2>
+                <p>Nossos especialistas em impostos ajudarão sua empresa a otimizar suas obrigações fiscais, encontrar deduções fiscais e planejar estrategicamente para minimizar a carga tributária. Este serviço é essencial para maximizar a eficiência fiscal e evitar problemas com o Fisco.</p>
+                <p>Preço: R$ 1.000 por ano</p>
+
+                <h3>Detalhes do Serviço</h3>
+                  <ul>
+                    <li><strong>Tempo para Realizar o Serviço:</strong> Recorrente anual</li>
+                    <li><strong>Dias de Atendimento:</strong> Segunda a Sexta</li>
+                    <li><strong>Horários de Atendimento:</strong> 9:00 - 17:00</li>
+                    <li><strong>Informações Adicionais:</strong> O tempo para realizar o serviço vai variar de acordo com a complexidade.</li>
+                  </ul>
+                <div style="padding-bottom: 20px;">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#orcamentoModal">Solicitar Orçamento</a>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <h3>Entenda mais</h3>
+                <p>Nossos especialistas prepararam um vídeo para tirar suas dúvidas sobre o serviço</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ASRDNk_YYO8?si=fRZ7FEGLp5NQQbH2" allowfullscreen></iframe>
+                </div>
+
+                <h3 style="margin-top: 12px;">Imagens do serviço</h3>
+                <p>Confira fotos da execução do nosso serviço</p>
+
+                <img src="https://www.resultaconsultoria.com.br/uploads/publicacoes/2018/09/12/planejamento-tributario-e-fundamental-para-o-sucesso-financeiro-das-empresas-redes-sociais.jpg" class="img-fluid mb-3" alt="Foto 1">
+                <img src="https://eficazgestaotributaria.com.br/wp-content/uploads/2019/12/eficaz-gestao-tributaria-a-importancia-do-planejamento-tributario-para-empresas-optantes-pelo-lucro-real-1200x600.jpg" class="img-fluid" alt="Foto 2">
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+      &copy; 2023 LJC Serviços Contábeis | Desenvolvido por Lucas Jantsch Chitolina
+    </footer>
+
+    <div class="modal fade" id="orcamentoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Solicitar Orçamento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Seu Telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" class="form-control" id="endereco" placeholder="Seu Endereço">
+                        </div>
+                        <div class="form-group">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control" id="cidade" placeholder="Sua Cidade">
+                        </div>
+                        <div class="form-group">
+                            <label for="uf">UF</label>
+                            <input type="text" class="form-control" id="uf" placeholder="UF">
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data desejada para a realização do serviço</label>
+                            <input type="date" class="form-control" id="data">
+                        </div>
+                        <div class="form-group">
+                            <label for="observacoes">Observações</label>
+                            <textarea class="form-control" id="observacoes" rows="4" placeholder="Observações adicionais"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar Orçamento</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

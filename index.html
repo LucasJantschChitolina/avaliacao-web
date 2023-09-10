@@ -1,15 +1,301 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-    <title>Teste</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Início | LJC Serviços Contábeis</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LJC Serviços Contábeis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="empresa.html">Sobre</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+    <div class="container mt-4">
+      <div id="carrossel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.concil.com.br/blog/wp-content/uploads/2021/04/image1-5.png" class="d-block w-100 img-fluid" alt="Auditoria Financeira">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Auditoria Financeira</h3>
+                    <p>Oferecemos serviços de auditoria completa para empresas que buscam uma revisão independente e objetiva de suas demonstrações financeiras.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://blog.hospedin.com/wp-content/uploads/2022/11/contabilidade-hoteleira.png" class="d-block w-100 img-fluid" alt="Planejamento Tributário">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Planejamento Tributário</h3>
+                    <p>Nossos especialistas em impostos ajudarão sua empresa a otimizar suas obrigações fiscais, encontrar deduções fiscais e planejar para minimizar a carga tributária.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://faro.edu.br/wp-content/uploads/2017/07/101504-formacao-em-contabilidade-conheca-9-oportunidades-de-atuacao.jpg" class="d-block w-100 img-fluid" alt="Serviço 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Serviço de Contabilidade Básica</h3>
+                    <p>Este serviço abrange o básico da contabilidade, incluindo a preparação de demonstrações financeiras, reconciliação de contas e aconselhamento fiscal básico.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carrossel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carrossel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    </div>
+
+  <section id="servicos" class="container mt-5">
+    <h2>Nossos Serviços</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://e-diariooficial.com/wp-content/uploads/2023/01/preparar-empresa-para-auditoria-financeira-640x360.jpg" class="card-img-top" style="height: 200px;" alt="Auditoria Financeira">
+                <div class="card-body">
+                    <h5 class="card-title">Auditoria Financeira</h5>
+                    <p><strong>Preço:</strong> sob consulta</p>
+                    <p class="card-text">Oferecemos serviços de auditoria completa para empresas que buscam uma revisão independente e objetiva de suas demonstrações financeiras.</p>
+                    <a href="servico1.html" class="btn btn-primary">Solicitar Orçamento</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://eficazgestaotributaria.com.br/wp-content/uploads/2019/12/eficaz-gestao-tributaria-a-importancia-do-planejamento-tributario-para-empresas-optantes-pelo-lucro-real-1200x600.jpg" class="card-img-top" style="height: 200px;" alt="Serviço 2">
+                <div class="card-body">
+                    <h5 class="card-title">Planejamento Tributário</h5>
+                    <p><strong>Preço:</strong> R$ 1.000 por ano</p>
+                    <p class="card-text">Nossos especialistas em impostos ajudarão sua empresa a otimizar suas obrigações fiscais, encontrar deduções fiscais e planejar para minimizar a carga tributária.</p>
+                    <a href="servico2.html" class="btn btn-primary">Solicitar Orçamento</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://www.contabeis.com.br/assets/img/news/tudo-sobre-contabilidade-publica.png" class="card-img-top" style="height: 200px;" alt="Serviço 3">
+                <div class="card-body">
+                    <h5 class="card-title">Serviço de Contabilidade Básica</h5>
+                    <p><strong>Preço:</strong> R$ 500 por mês</p>
+                    <p class="card-text">Este serviço abrange o básico da contabilidade, incluindo a preparação de demonstrações financeiras, reconciliação de contas e aconselhamento fiscal básico.</p>
+                    <a href="servico3.html" class="btn btn-primary">Solicitar Orçamento</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="comparacao-atendimento" style="margin-bottom: 40px;">
+  <div class="container mt-4">
+      <h2>Comparação de Qualidade de Atendimento</h2>
+      <div class="table-responsive">
+          <table class="table table-bordered">
+              <thead>
+                  <tr>
+                      <th>Empresa</th>
+                      <th>Tempo de Resposta</th>
+                      <th>Profissionalismo</th>
+                      <th>Satisfação do Cliente</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>LJC Serviços Contábeis</td>
+                      <td>1 hora</td>
+                      <td>Excelente</td>
+                      <td>95%</td>
+                  </tr>
+                  <tr>
+                      <td>Concorrente A</td>
+                      <td>2 horas</td>
+                      <td>Bom</td>
+                      <td>85%</td>
+                  </tr>
+                  <tr>
+                      <td>Concorrente B</td>
+                      <td>3 horas</td>
+                      <td>Regular</td>
+                      <td>75%</td>
+                  </tr>
+                  <tr>
+                      <td>Concorrente C</td>
+                      <td>4 horas</td>
+                      <td>Ruim</td>
+                      <td>60%</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</section>
+
+<div class="jumbotron">
+  <section id="contato">
+      <h2>Entre em Contato Conosco</h2>
+      <div class="row">
+          <div class="col-md-6">
+              <form>
+                  <div class="form-group">
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                  </div>
+                  <div class="form-group">
+                      <label for="mensagem">Mensagem</label>
+                      <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>
+          <div class="col-md-6">
+              <h3>Informações de Contato</h3>
+              <p><strong>Nome da Empresa:</strong> LJC Serviços Contábeis</p>
+              <p><strong>Email da Empresa:</strong> contato@ljc.com.br</p>
+              <p><strong>Telefone da Empresa:</strong> (49) 487154-2397</p>
+              <p><strong>Whatsapp:</strong> (49) 948751-154878</p>
+              <p><strong>Redes Sociais:</strong></p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+      </div>
+  </section>
+</div>
+
+<div class="container mt-4">
+  <section id="depoimentos">
+      <h2>Depoimentos dos Nossos Clientes</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card mb-4 d-flex justify-content-center align-items-center" style="padding: 15px;">
+                  <img src="cliente1.jpg" style="height: 100px; width: 100px;" class="card-img-top rounded-circle img-fluid" alt="Foto do Cliente 1">
+                  <div class="card-body">
+                      <p class="card-text">"Excelente serviço de contabilidade! Eles nos ajudaram a manter nossas finanças em ordem e economizar dinheiro."</p>
+                      <p class="card-title">Maria Santos</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 d-flex justify-content-center align-items-center" style="padding: 15px;">
+                  <img src="cliente2.jpg" style="height: 100px; width: 100px;" class="card-img-top rounded-circle img-fluid" alt="Foto do Cliente 2">
+                  <div class="card-body">
+                      <p class="card-text">"A LJC Serviços Contábeis é incrível. Eles são muito profissionais e sempre prontos para ajudar."</p>
+                      <p class="card-title">João da Silva</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 d-flex justify-content-center align-items-center" style="padding: 15px;">
+                  <img src="cliente3.jpg" style="height: 100px; width: 100px;" class="card-img-top rounded-circle img-fluid" alt="Foto do Cliente 3">
+                  <div class="card-body">
+                      <p class="card-text">"Recomendo a LJC Serviços Contábeis a todos. Eles fazem um ótimo trabalho!"</p>
+                      <p class="card-title">Karen Braga</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 d-flex justify-content-center align-items-center" style="padding: 15px;">
+                  <img src="cliente4.jpg" style="height: 100px; width: 100px;" class="card-img-top rounded-circle img-fluid" alt="Foto do Cliente 4">
+                  <div class="card-body">
+                      <p class="card-text">"Estamos muito satisfeitos com os serviços da LJC Serviços Contábeis. Eles são confiáveis e eficientes."</p>
+                      <p class="card-title">Ana Rodrigues</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 d-flex justify-content-center align-items-center" style="padding: 15px;">
+                  <img src="cliente5.jpg" style="height: 100px; width: 100px;" class="card-img-top rounded-circle img-fluid" alt="Foto do Cliente 5">
+                  <div class="card-body">
+                      <p class="card-text">"A LJC Serviços Contábeis fez toda a diferença em nossa empresa. Eles são parceiros de confiança."</p>
+                      <p class="card-title">Maria Santos</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
+
+  <footer class="bg-dark text-light text-center py-3">
+      &copy; 2023 LJC Serviços Contábeis | Desenvolvido por Lucas Jantsch Chitolina
+  </footer>
+
+  <div id="whatsapp-button" class="whatsapp-button">
+      <a href="https://api.whatsapp.com/send?phone=9999999999999" target="_blank" class="whatsapp-link">
+          <img src="whatsapp-icon.svg" alt="WhatsApp" class="whatsapp-icon">
+      </a>
+  </div>
 </body>
+
+<style>
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.whatsapp-link:hover .whatsapp-icon {
+    animation: shake 0.5s infinite;
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+    20%, 40%, 60%, 80% { transform: translateX(2px); }
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+</style>
+
 </html>
